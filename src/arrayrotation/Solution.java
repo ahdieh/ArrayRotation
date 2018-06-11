@@ -23,7 +23,7 @@ public class Solution {
     }
     
     
-    public int[] solution(int K) {        
+    public void solution(int K) {        
         // write your code in Java SE 8
         this.k = K;
         int temp1, temp2 = 0;
@@ -40,8 +40,6 @@ public class Solution {
                 temp1 = temp2;						
             }
 	}
-        
-        return A;
     }
     
     void print() {

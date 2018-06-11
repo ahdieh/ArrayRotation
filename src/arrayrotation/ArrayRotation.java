@@ -41,7 +41,6 @@ public class ArrayRotation {
         // TODO code application logic here
         int n=0,k=0;
 	int[] array;
-	int[] result;
         
         Scanner in = new Scanner(System.in);
  	// length of array
@@ -61,7 +60,7 @@ public class ArrayRotation {
 		array[i] = number;
 	}
         Solution solu = new Solution(n, array);
-	result = solu.solution(k);
+	solu.solution(k);
 	solu.print();
     }
     
